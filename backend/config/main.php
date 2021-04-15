@@ -44,7 +44,10 @@ return [
             'rules' => [
             ],
         ],
-        
+        'request' => [
+                'cookieValidationKey' => '[DIFFERENT UNIQUE KEY]',
+                'csrfParam' => '_backendCSRF',
+            ],
     ],
     'params' => $params,
 ];
